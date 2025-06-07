@@ -1,4 +1,4 @@
-name = "my-worker"
+name = "annai-plastics"
 
 compatibility_date = "2022-07-12"
 compatibility_flag = [ "nodejs_compat" ]
