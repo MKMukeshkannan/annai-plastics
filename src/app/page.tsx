@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="h-screen w-full flex items-center justify-center">
+    <main className="h-screen w-full flex items-center justify-center p-10">
       <h1 className="text-3xl font-bold">THE PAGE IS UNDER CONSTRUCTION</h1>
     </main>
   );
