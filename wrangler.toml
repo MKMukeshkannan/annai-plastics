@@ -1,0 +1,7 @@
+name = "my-worker"
+
+compatibility_date = "2022-07-12"
+compatibility_flag = [ "nodejs_compat" ]
+
+main = ".worker-next/index.mjs"
+assets = { directory = ".worker-next/assets", binding = "ASSETS" }
