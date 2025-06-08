@@ -1,6 +1,6 @@
 "use client";
 
-import { IconMenu2, IconX } from "@tabler/icons-react";
+import {  IconMenu2, IconX } from "@tabler/icons-react";
 import { useState } from "react";
 
 export const NavBar = () => {
