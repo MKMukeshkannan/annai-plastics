@@ -1,3 +1,4 @@
+import { IconBrandFacebookFilled, IconBrandLinkedin, IconBrandXFilled } from "@tabler/icons-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -223,11 +224,22 @@ export default function Home() {
         </section>
       </section>
 
-      <footer className="flex flex-col bg-accent h-72 mt32">
-        <section className="h-0 flex-1"></section>
-        <h1 className="text-white lg:text-8xl p-10">FOOTER</h1>
+      <footer className="flex xl:flex-row flex-col bg-accent h-72 p-10">
+        <section className="flex items-center justify-center xl:justify-start xl:items-start  w-full h-full">
+            <h1 className="text-3xl xl:text-7xl font-bold text-white">ANNAI PLASTICS</h1>
+        </section>
+
+        <section className="text-white w-full h-full flex flex-col items-center justify-center xl:items-end xl:justify-end"> 
+            <h1 className="text-xl font-light">follow us on</h1>
+            <section className=" flex space-x-2">
+                <IconBrandFacebookFilled />
+                <IconBrandLinkedin />
+                <IconBrandXFilled />
+            </section>
+        </section>
       </footer>
-      <footer className="w-full h-10 bg-[#000] text-white flex items-center justify-center font-light">
+
+      <footer className="w-full h-10 bg-[#000] text-white flex items-center justify-center font-light text-sm">
         <p>Copyright © 2025 Annai Plastics. All rights reserved.</p>
       </footer>
     </main>
