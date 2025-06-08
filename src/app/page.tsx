@@ -98,7 +98,6 @@ export default function Home() {
             </article>
           </section>
 
-
           {/*  AfFFOdABLE CARD */}
           <section className="flex flex-col items-center justify-center border p-5 border-white rounded-xl w-full max-w-[300px] hover:-translate-y-2 transition bg-accent text-white pb-20">
             <Image
@@ -132,13 +131,104 @@ export default function Home() {
               smoothly.
             </article>
           </section>
+        </section>
+      </section>
 
+      <section className="w-full bg-white p-10">
+        <h1 className="text-6xl lg:text-8xl font-black ">Our Factory</h1>
+        <p className="pb-10">This is where we produce our products.</p>
+
+        <section className="columns-1 lg:columns-3 [&>img:not(first-child)]:mb-5 flex lg:block flex-col items-center justify-center">
+          <Image
+            width={600}
+            height={400}
+            alt=""
+            src={"https://placehold.co/370x400/f05f00/FFFFFF.png"}
+          />
+          <Image
+            width={500}
+            height={400}
+            alt=""
+            src={"https://placehold.co/600x400/000000/FFFFFF.png"}
+          />
+          <Image
+            width={500}
+            height={300}
+            alt=""
+            src={"https://placehold.co/500x400/ee00ee/FFFFFF.png"}
+          />
+          <Image
+            width={600}
+            height={400}
+            alt=""
+            src={"https://placehold.co/600x400/000000/FFFFFF.png"}
+          />
+          <Image
+            width={600}
+            height={400}
+            alt=""
+            src={"https://placehold.co/600x300/0ee000/FFFFFF.png"}
+            className="hidden lg:block"
+          />
+          <Image
+            width={600}
+            height={400}
+            alt=""
+            src={"https://placehold.co/400x400/e0000e/FFFFFF.png"}
+            className="hidden lg:block"
+          />
+        </section>
+      </section>
+
+      <section className="h-[700px] w-full p-10 flex flex-col xl:flex-row">
+
+        <section className="xl:pr-24 flex flex-col" >
+          <h1 className="text-5xl xl:text-8xl font-bold">Contact Us</h1>
+          <p className="pb-5 xl:pt-10 xl:pl-2 text-xl font-light">
+            Get in touch with us for any enquires and questions.
+          </p>
+          <section className="h-0 flex-1" />
+
+          <section className="items-center space-x-5 font-light hidden xl:flex">
+            <h1 className="border py-1 px-2 cursor-pointer hover:bg-accent hover:text-white bg-white text-accent">FACEBOOK</h1>
+            <h1 className="border py-1 px-2 cursor-pointer hover:bg-accent hover:text-white bg-white text-accent">LINKEDIN</h1>
+          </section>
+        </section>
+
+        <section className="flex flex-col w-full h-full">
+          <section className="grid grid-cols-1 xl:grid-cols-2 pb-5 gap-5">
+            <section>
+              <h2 className="text-xl text-zinc-500">mobile number</h2>
+              <p className="text-xl xl:text-2xl font-bold">91+ 9150300887</p>
+            </section>
+            <section>
+              <h2 className="text-xl text-zinc-500">email</h2>
+              <p className="text-xl xl:text-2xl font-bold">enquiry@annaiplastics.com</p>
+            </section>
+            <section>
+              <h2 className="text-xl text-zinc-500">address</h2>
+              <p className="text-xl xl:text-2xl font-bold">33/A, Janani Nagar Annex, <br/> Mangadu, Chennai - 600122</p>
+            </section>
+          </section>
+
+          <section className="bg-red-300 w-full h-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d4787.97668593785!2d80.09498037591588!3d13.031350087289578!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a528a7ff2a4bf09%3A0x9e43e301de7256bb!2sAnnai%20Plastics-Experts%20in%20Plastic%20Moulding!5e1!3m2!1sen!2sin!4v1749390778849!5m2!1sen!2sin"
+              className="w-full h-full"
+              width="600"
+              height="450"
+              loading="lazy"
+            ></iframe>
+          </section>
         </section>
       </section>
 
       <footer className="flex flex-col bg-accent h-72 mt32">
         <section className="h-0 flex-1"></section>
         <h1 className="text-white lg:text-8xl p-10">FOOTER</h1>
+      </footer>
+      <footer className="w-full h-10 bg-[#000] text-white flex items-center justify-center font-light">
+        <p>Copyright © 2025 Annai Plastics. All rights reserved.</p>
       </footer>
     </main>
   );
