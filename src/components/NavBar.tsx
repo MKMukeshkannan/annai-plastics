@@ -11,13 +11,13 @@ export const NavBar = () => {
       <section className="flex items-center justify-between p-4">
         <h1 className="font-bold text-xl">ANNAI PLASTICS</h1>
         <section className="hidden md:flex space-x-2 font-light">
-          <a href="#" className="hover:font-bold ">
+          <a href="#about" className="hover:font-bold ">
             ABOUT
           </a>
-          <a href="#" className="hover:font-bold ">
-            SERVICES
+          <a href="#gallery" className="hover:font-bold ">
+            GALLERY 
           </a>
-          <a href="#" className="hover:font-bold ">
+          <a href="#contact" className="hover:font-bold ">
             CONTACT
           </a>
         </section>
@@ -30,13 +30,13 @@ export const NavBar = () => {
         <div className="absolute top-10 right-10 cursor-pointer">
           <IconX onClick={() => setOpen(false)} size={32} />
         </div>
-        <a href="#" className="hover:font-bold ">
+        <a href="#about" className="hover:font-bold ">
           ABOUT
         </a>
-        <a href="#" className="hover:font-bold ">
-          SERVICES
+        <a href="#gallery" className="hover:font-bold ">
+          GALLERY
         </a>
-        <a href="#" className="hover:font-bold ">
+        <a href="#contact" className="hover:font-bold ">
           CONTACT
         </a>
       </section>

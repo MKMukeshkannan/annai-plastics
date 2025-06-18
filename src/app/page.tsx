@@ -31,7 +31,7 @@ export default function Home() {
         </section>
       </section>
 
-      <section className=" bg-white p-10 lg:p-24 flex xl:flex-row flex-col space-x-5">
+      <section className=" bg-white p-10 lg:p-24 flex xl:flex-row flex-col space-x-5" id="about">
         <section className="">
           <h1 className="text-7xl font-black pb-5">About Us</h1>
           <section className="block lg:hidden w-full bg-amber-800 lg:min-w-xl mb-2">
@@ -145,7 +145,7 @@ export default function Home() {
         </section>
       </section>
 
-      <section className="w-full bg-white p-10">
+      <section className="w-full bg-white p-10"  id="gallery">
         <h1 className="text-6xl lg:text-8xl font-black ">Our Factory</h1>
         <p className="pb-10">This is where we produce our products.</p>
 
@@ -191,7 +191,7 @@ export default function Home() {
         </section>
       </section>
 
-      <section className="h-[700px] w-full p-10 flex flex-col xl:flex-row">
+      <section className="h-[700px] w-full p-10 flex flex-col xl:flex-row" id="contact" >
 
         <section className="xl:pr-24 flex flex-col" >
           <h1 className="text-5xl xl:text-8xl font-bold">Contact Us</h1>
@@ -201,8 +201,8 @@ export default function Home() {
           <section className="h-0 flex-1" />
 
           <section className="items-center space-x-5 font-light hidden xl:flex">
-            <h1 className="border py-1 px-2 cursor-pointer hover:bg-accent hover:text-white bg-white text-accent">FACEBOOK</h1>
-            <h1 className="border py-1 px-2 cursor-pointer hover:bg-accent hover:text-white bg-white text-accent">LINKEDIN</h1>
+            <a href="https://www.facebook.com/annaipaperandplastic/" className="border py-1 px-2 cursor-pointer hover:bg-accent hover:text-white bg-white text-accent">FACEBOOK</a>
+            <a href="https://www.linkedin.com/in/annaipaperandplastics" className="border py-1 px-2 cursor-pointer hover:bg-accent hover:text-white bg-white text-accent">LINKEDIN</a>
           </section>
         </section>
 
@@ -242,8 +242,8 @@ export default function Home() {
         <section className="text-white w-full h-full flex flex-col items-center justify-center xl:items-end xl:justify-end"> 
             <h1 className="text-xl font-light">follow us on</h1>
             <section className=" flex space-x-2">
-                <IconBrandFacebookFilled />
-                <IconBrandLinkedin />
+                <IconBrandFacebookFilled href="https://www.facebook.com/annaipaperandplastic"/>
+                <IconBrandLinkedin href="https://www.linkedin.com/in/annaipaperandplastics"/>
                 <IconBrandXFilled />
             </section>
         </section>
