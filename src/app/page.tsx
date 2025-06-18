@@ -1,5 +1,15 @@
 import { IconBrandFacebookFilled, IconBrandLinkedin, IconBrandXFilled } from "@tabler/icons-react";
 import Image from "next/image";
+import HeroMachine from "../../public/hero-section.webp";
+import AboutMachine from "../../public/about-section.webp";
+
+import GoDown from "../../public/godown.webp";
+import Grinder from "../../public/grinder.webp";
+import Material from "../../public/material.webp";
+import Mold from "../../public/material-bags.webp";
+import Operation from "../../public/mold.webp";
+import MaterialBags from "../../public/operation.webp";
+
 
 export default function Home() {
   return (
@@ -7,7 +17,7 @@ export default function Home() {
       {/*HERO SECTION*/}
       <section className="h-[700px] bg-red-500 w-full overflow-clip grayscale relative">
         <Image
-          src="https://easchangesystems.com/wp-content/uploads/2015/08/130913_munchen_065.jpg"
+          src={HeroMachine}
           width={1000}
           height={1000}
           className=" w-full h-full object-cover"
@@ -26,7 +36,7 @@ export default function Home() {
           <h1 className="text-7xl font-black pb-5">About Us</h1>
           <section className="block lg:hidden w-full bg-amber-800 lg:min-w-xl mb-2">
             <Image
-              src="https://easchangesystems.com/wp-content/uploads/2015/08/130913_munchen_065.jpg"
+              src={AboutMachine}
               width={1000}
               height={1000}
               className=" w-full h-full object-cover"
@@ -56,7 +66,7 @@ export default function Home() {
         </section>
         <section className="hidden lg:block w-full  lg:min-w-xl ">
           <Image
-            src="https://easchangesystems.com/wp-content/uploads/2015/08/130913_munchen_065.jpg"
+            src={AboutMachine}
             width={1000}
             height={1000}
             className=" w-full h-full object-cover"
@@ -144,38 +154,38 @@ export default function Home() {
             width={600}
             height={400}
             alt=""
-            src={"https://placehold.co/370x400/f05f00/FFFFFF.png"}
-          />
-          <Image
-            width={500}
-            height={400}
-            alt=""
-            src={"https://placehold.co/600x400/000000/FFFFFF.png"}
-          />
-          <Image
-            width={500}
-            height={300}
-            alt=""
-            src={"https://placehold.co/500x400/ee00ee/FFFFFF.png"}
-          />
-          <Image
-            width={600}
-            height={400}
-            alt=""
-            src={"https://placehold.co/600x400/000000/FFFFFF.png"}
-          />
-          <Image
-            width={600}
-            height={400}
-            alt=""
-            src={"https://placehold.co/600x300/0ee000/FFFFFF.png"}
+            src={GoDown}
             className="hidden lg:block"
           />
           <Image
             width={600}
             height={400}
             alt=""
-            src={"https://placehold.co/400x400/e0000e/FFFFFF.png"}
+            src={Mold}
+          />
+          <Image
+            width={500}
+            height={300}
+            alt=""
+            src={Operation}
+          />
+          <Image
+            width={500}
+            height={400}
+            alt=""
+            src={Material}
+          />
+          <Image
+            width={600}
+            height={400}
+            alt=""
+            src={MaterialBags}
+          />
+          <Image
+            width={600}
+            height={400}
+            alt=""
+            src={Grinder}
             className="hidden lg:block"
           />
         </section>
