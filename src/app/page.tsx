@@ -214,7 +214,7 @@ export default function Home() {
             </section>
             <section>
               <h2 className="text-xl text-zinc-500">email</h2>
-              <p className="text-xl xl:text-2xl font-bold">enquiry@annaiplastics.com</p>
+              <p className="text-xl xl:text-2xl font-bold">enquire@annaiplastics.com</p>
             </section>
             <section>
               <h2 className="text-xl text-zinc-500">address</h2>
